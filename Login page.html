@@ -31,8 +31,13 @@
         </label>
 
             <div class="submit-container clearfix" style="margin-top: 2rem;">
-                <div id="submit" role="button" type="button" class="btn btn-irenic float-right" tabindex="0">
+                <div id="submit" role="button" type="button" class="btn btn-irenic float-right" onclick="myfunction()" tabindex="0">
                     <span>SIGN IN</span>
+                    <script>
+                        function myfunction() {
+                            alert("Your data has been saved");
+                        }
+                    </script>
                 </div>
 
                 <div class="login-pending">
